@@ -1,0 +1,165 @@
+{
+  "occasions": {
+    "gym": {
+      "keywords": ["gym", "workout", "exercise", "fitness", "training", "yoga", "sports", "active", "running", "jogging", "aerobics", "pilates", "crossfit", "track", "athletic"],
+      "description": "Athletic and comfortable wear for physical activities",
+      "outfit_type": "top_bottom",
+      "allowed_categories": {
+        "tops": ["Sports Bra", "Tank Top", "T-Shirt", "Athletic Top", "Workout Top", "Gym Top", "Crop Top"],
+        "bottoms": ["Leggings", "Shorts", "Track Pants", "Joggers", "Yoga Pants", "Gym Shorts", "Athletic Shorts"],
+        "shoes": ["Sneakers", "Running Shoes", "Sports Shoes", "Training Shoes", "Athletic Shoes"],
+        "accessories": ["Sports Watch", "Headband", "Gym Bag", "Water Bottle", "Fitness Band", "Cap"]
+      },
+      "forbidden_categories": ["Saree", "Dress", "Heels", "Jhumkas", "Formal Shirt", "Kurta", "Suit", "Blazer", "Sandals", "Ethnic", "Traditional", "Bangles", "Lehenga", "Anarkali"],
+      "style_notes": "Prioritize comfort, flexibility, and breathability. Choose moisture-wicking fabrics. Avoid formal, ethnic, or restrictive wear."
+    },
+    
+    "temple": {
+      "keywords": ["temple", "pooja", "puja", "prayer", "religious", "mandir", "kovil", "church", "mosque", "gurudwara", "devotional"],
+      "description": "Traditional and modest attire for religious places",
+      "outfit_type": "ethnic",
+      "allowed_categories": {
+        "tops": ["Saree", "Kurti", "Kurta Set", "Chudi Set", "Anarkali", "Salwar Suit", "Traditional Top"],
+        "bottoms": ["Churidar", "Leggings", "Palazzo", "Salwar", "Petticoat"],
+        "shoes": ["Sandals", "Flats", "Juttis", "Kolhapuri", "Ethnic Footwear"],
+        "accessories": ["Jhumkas", "Bangles", "Bindi", "Traditional Jewelry", "Temple Jewelry", "Kundan", "Antique Jewelry"]
+      },
+      "forbidden_categories": ["Jeans", "Shorts", "Mini Dress", "Mini", "Bodycon", "Sleeveless Top", "Crop Top", "Western Dress", "Party Dress", "Sneakers", "Heels", "Modern Jewelry", "Belts", "Asymmetrical", "Off-Shoulder", "Off Shoulder", "Floral Dress", "Maxi Dress", "Ribbed", "Tank Top", "Polo", "T-Shirt", "Formal Shirt", "Denim", "Joggers", "Cargo", "Culottes", "Chinos", "Loafers", "Boots", "Watch", "Sunglasses", "Backpack"],
+      "style_notes": "Choose modest, traditional Indian attire. Sarees, Kurti Sets, Chudi Sets, and Anarkalis are COMPLETE OUTFITS - do NOT suggest a separate bottom for these. Only suggest a bottom if picking a standalone kurti (without 'set' in name). Use ethnic accessories only. NEVER suggest western dresses like bodycon, asymmetrical, mini, maxi, or off-shoulder for temple."
+    },
+    
+    "wedding": {
+      "keywords": ["wedding", "marriage", "reception", "sangeet", "mehendi", "haldi", "engagement", "shaadi", "kalyanam"],
+      "description": "Grand ethnic or formal attire for wedding celebrations",
+      "outfit_type": "ethnic",
+      "allowed_categories": {
+        "tops": ["Saree", "Lehenga", "Anarkali", "Sharara Set", "Gharara", "Designer Kurti", "Gown"],
+        "bottoms": ["Lehenga Skirt", "Sharara", "Palazzo", "Churidar"],
+        "shoes": ["Heels", "Stilettos", "Ethnic Heels", "Embellished Sandals", "Juttis"],
+        "accessories": ["Statement Jewelry", "Kundan Set", "Jhumkas", "Maang Tikka", "Clutch", "Potli Bag", "Bangles"]
+      },
+      "forbidden_categories": ["Jeans", "T-Shirt", "Sneakers", "Casual Dress", "Shorts", "Track Pants", "Sports Wear", "Gym Wear", "Mini Dress", "Mini", "Bodycon", "Asymmetrical", "Off-Shoulder", "Off Shoulder", "Floral Dress", "Ribbed", "Tank Top", "Polo", "Formal Shirt", "Denim", "Joggers", "Cargo", "Culottes", "Chinos", "Loafers", "Watch", "Sunglasses", "Backpack", "Western Dress"],
+      "style_notes": "Go for rich, festive colors and embellished fabrics. Sarees, Lehengas, Anarkalis, Sharara Sets, and Kurti Sets are COMPLETE OUTFITS - do NOT suggest a separate bottom for these. Heavy ethnic jewelry is appropriate. NEVER suggest western dresses like bodycon, asymmetrical, mini, or off-shoulder for wedding."
+    },
+    
+    "party": {
+      "keywords": ["party", "birthday", "club", "nightclub", "girls night", "celebration", "disco", "pub", "bar", "cocktail", "new year", "christmas party"],
+      "description": "Stylish and glamorous western wear for parties",
+      "outfit_type": "dress_or_top_bottom",
+      "allowed_categories": {
+        "tops": ["Party Dress", "Bodycon Dress", "Mini Dress", "Sequin Dress", "Cocktail Dress", "Crop Top", "Off-Shoulder Top", "Satin Top"],
+        "bottoms": ["Mini Skirt", "Pencil Skirt", "Leather Pants", "Skinny Jeans", "Dressy Pants"],
+        "shoes": ["Heels", "Stilettos", "Platform Heels", "Strappy Heels", "Ankle Boots"],
+        "accessories": ["Clutch", "Statement Earrings", "Bracelet", "Chain Necklace", "Handbag", "Wristlet"]
+      },
+      "forbidden_categories": ["Saree", "Kurta", "Ethnic Wear", "Traditional", "Jhumkas", "Bangles", "Sneakers", "Flats", "Sports Wear", "Gym Wear", "Temple Jewelry"],
+      "style_notes": "Go glamorous with body-hugging silhouettes, bold colors, or sparkles. Use western accessories. Avoid ethnic or traditional wear."
+    },
+    
+    "office": {
+      "keywords": ["office", "work", "professional", "corporate", "meeting", "interview", "business", "formal", "presentation", "conference"],
+      "description": "Professional and polished attire for workplace",
+      "outfit_type": "top_bottom",
+      "allowed_categories": {
+        "tops": ["Formal Shirt", "Formal", "Blouse", "Blazer", "Formal Top", "Button-up Shirt"],
+        "bottoms": ["Trousers", "Formal Pants", "Formal Trousers", "Formal", "Pencil Skirt", "A-line Skirt", "Dress Pants"],
+        "shoes": ["Formal", "Heels", "Pumps", "Block Heel"],
+        "accessories": ["Watch", "Laptop Bag", "Tote Bag", "Stud Earrings", "Simple Necklace", "Belt"]
+      },
+      "forbidden_categories": ["Jeans", "T-Shirt", "Sneakers", "Shorts", "Party Dress", "Bodycon", "Crop Top", "Flip Flops", "Sports Wear", "Casual Dress", "Saree", "Heavy Jewelry", "Kurti", "Kurti Set", "Chudi", "Chudi Set", "Anarkali", "Lehenga", "Sharara", "Saharara", "Ethnic", "Traditional", "Jhumkas", "Bangles", "Asymmetrical", "Off-Shoulder", "Off Shoulder", "Mini Dress", "Mini", "Maxi", "Floral Dress", "Ribbed", "Tank Top", "Joggers", "Cargo", "Track Pants", "Set", "Sandals", "Slip-ons", "Canvas", "Boots", "Loafers", "Pink"],
+      "style_notes": "STRICT REQUIREMENT: Suggest Formal Shirt + Formal Trousers ONLY. Choose clean, tailored pieces in neutral or solid colors like black, white, grey, navy. NEVER suggest ethnic wear, casual wear, or dresses for office meetings. Match formal shoes with formal outfit."
+    },
+    
+    "casual": {
+      "keywords": ["casual", "movie", "everyday", "daily", "relaxed", "home", "errand", "shopping", "mall", "hangout", "coffee", "brunch", "lunch", "outing", "friends"],
+      "description": "Comfortable and stylish everyday wear",
+      "outfit_type": "top_bottom",
+      "allowed_categories": {
+        "tops": ["T-Shirt", "Tee", "Top", "Blouse", "Tank Top", "Sweater", "Cardigan", "Shirt", "Tunic", "Cropped", "Graphic", "Polo", "Crew"],
+        "bottoms": ["Jeans", "Leggins", "Leggings", "Pants", "Shorts", "Skirt", "Palazzos", "Culottes", "Denim", "Cargo", "Trousers", "Linen", "Mom Jeans"],
+        "shoes": ["Sneakers", "Flats", "Sandals", "Loafers", "Canvas", "Slip-ons"],
+        "accessories": ["Crossbody", "Tote Bag", "Watch", "Sunglasses", "Sunglass", "Earrings", "Bracelet", "Bag", "Backpack", "Cap", "Clip"]
+      },
+      "forbidden_categories": ["Formal Wear", "Heavy Jewelry", "Stilettos", "Party Dress", "Sequin", "Bodycon", "Saree", "Saharara", "Sharara", "Lehenga", "Anarkali", "Chudi", "Ethnic", "Traditional", "Jhumkas", "Kurti Set", "Chudi Set"],
+      "style_notes": "Mix comfort with style. Opt for breathable fabrics and versatile pieces like jeans and t-shirts. Keep accessories simple and functional. NEVER suggest ethnic wear for casual occasions."
+    },
+    
+    "date": {
+      "keywords": ["date", "date night", "romantic", "dinner", "anniversary", "valentine", "candle light", "fine dining"],
+      "description": "Romantic and elegant attire for date nights",
+      "outfit_type": "dress_or_top_bottom",
+      "allowed_categories": {
+        "tops": ["Bodycon Dress", "Wrap Dress", "Satin Dress", "Little Black Dress", "Off-Shoulder Top", "Silk Top", "Elegant Blouse"],
+        "bottoms": ["Fitted Skirt", "Leather Pants", "High-Waist Pants", "Dressy Jeans"],
+        "shoes": ["Heels", "Strappy Sandals", "Elegant Flats", "Kitten Heels", "Stilettos"],
+        "accessories": ["Clutch", "Delicate Jewelry", "Statement Earrings", "Small Handbag", "Perfume"]
+      },
+      "forbidden_categories": ["Sports Wear", "Gym Wear", "Sneakers", "Heavy Ethnic Jewelry", "Casual T-Shirt", "Track Pants", "Jhumkas"],
+      "style_notes": "Choose elegant, figure-flattering pieces. Opt for romantic colors like red, black, or blush. Keep it classy yet attractive."
+    },
+    
+    "travel": {
+      "keywords": ["travel", "trip", "vacation", "holiday", "airport", "flight", "journey", "road trip", "sightseeing", "tour"],
+      "description": "Comfortable yet stylish travel attire",
+      "outfit_type": "top_bottom",
+      "allowed_categories": {
+        "tops": ["T-Shirt", "Comfortable Top", "Maxi Dress", "Sundress", "Cardigan", "Light Jacket", "Hoodie"],
+        "bottoms": ["Leggings", "Comfortable Jeans", "Joggers", "Loose Pants", "Cotton Pants", "Shorts"],
+        "shoes": ["Sneakers", "Comfortable Flats", "Slip-ons", "Sandals", "Walking Shoes"],
+        "accessories": ["Backpack", "Crossbody Bag", "Sunglasses", "Scarf", "Travel Wallet", "Cap"]
+      },
+      "forbidden_categories": ["Heels", "Formal Wear", "Bodycon", "Heavy Jewelry", "Saree", "Stilettos", "Tight Dress"],
+      "style_notes": "Prioritize comfort for long hours. Choose breathable, wrinkle-resistant fabrics. Layer for changing temperatures."
+    },
+    
+    "beach": {
+      "keywords": ["beach", "pool", "swimming", "resort", "waterpark", "seaside", "coastal", "tropical"],
+      "description": "Beach-appropriate and resort wear",
+      "outfit_type": "top_bottom",
+      "allowed_categories": {
+        "tops": ["Swimsuit", "Bikini Top", "Tank Top", "Cover-up", "Beach Dress", "Crop Top", "Sundress"],
+        "bottoms": ["Shorts", "Beach Shorts", "Sarong", "Flowy Skirt", "Swimsuit Bottom"],
+        "shoes": ["Flip Flops", "Sandals", "Slides", "Water Shoes", "Espadrilles"],
+        "accessories": ["Sunglasses", "Beach Hat", "Tote Bag", "Beach Bag", "Waterproof Watch"]
+      },
+      "forbidden_categories": ["Formal Wear", "Jeans", "Heels", "Heavy Jewelry", "Saree", "Sneakers", "Blazer"],
+      "style_notes": "Choose lightweight, quick-dry fabrics. Bright colors and tropical prints work well. Don't forget sun protection."
+    },
+    
+    "festival": {
+      "keywords": ["festival", "diwali", "holi", "navratri", "durga puja", "ganesh chaturthi", "onam", "pongal", "eid", "christmas", "cultural"],
+      "description": "Festive ethnic or fusion attire for celebrations",
+      "outfit_type": "ethnic",
+      "allowed_categories": {
+        "tops": ["Saree", "Lehenga", "Anarkali", "Kurti Set", "Designer Kurti", "Sharara Set", "Festive Dress"],
+        "bottoms": ["Sharara", "Palazzo", "Churidar", "Dhoti Pants", "Festive Skirt"],
+        "shoes": ["Ethnic Heels", "Juttis", "Kolhapuri", "Embellished Sandals", "Block Heels"],
+        "accessories": ["Statement Jewelry", "Jhumkas", "Bangles", "Maang Tikka", "Potli Bag", "Clutch"]
+      },
+      "forbidden_categories": ["Jeans", "T-Shirt", "Sneakers", "Sports Wear", "Gym Wear", "Plain Casual Wear", "Mini Dress", "Mini", "Bodycon", "Asymmetrical", "Off-Shoulder", "Off Shoulder", "Floral Dress", "Ribbed", "Tank Top", "Polo", "Formal Shirt", "Denim", "Joggers", "Cargo", "Culottes", "Chinos", "Western Dress"],
+      "style_notes": "Embrace vibrant colors and festive fabrics. Sarees, Kurti Sets, Lehengas, and Sharara Sets are COMPLETE OUTFITS - do NOT suggest a separate bottom for these. Accessorize with statement pieces. NEVER suggest western dresses for festivals."
+    },
+    
+    "college": {
+      "keywords": ["college", "university", "class", "lecture", "campus", "school", "student"],
+      "description": "Trendy and practical attire for college",
+      "outfit_type": "top_bottom",
+      "allowed_categories": {
+        "tops": ["T-Shirt", "Casual Top", "Kurti", "Shirt", "Sweater", "Hoodie", "Denim Jacket"],
+        "bottoms": ["Jeans", "Casual Pants", "Skirt", "Palazzo", "Culottes", "Shorts"],
+        "shoes": ["Sneakers", "Canvas Shoes", "Flats", "Loafers", "Casual Boots", "Sandals"],
+        "accessories": ["Backpack", "Tote Bag", "Watch", "Simple Earrings", "Bracelet", "Sling Bag"]
+      },
+      "forbidden_categories": ["Formal Wear", "Heavy Jewelry", "Heels", "Party Dress", "Saree", "Bodycon", "Mini Dress", "Mini", "Asymmetrical"],
+      "style_notes": "Balance style with comfort. Mix trendy pieces with basics. Express your personal style while staying practical."
+    }
+  },
+  
+  "default_occasion": "casual",
+  
+  "general_rules": {
+    "weather_hot": "Suggest light, breathable fabrics like cotton, linen. Avoid heavy layers.",
+    "weather_cold": "Suggest warm layers like jackets, sweaters, cardigans. Include boots or closed shoes.",
+    "weather_rainy": "Suggest water-resistant items. Avoid white or silk. Include closed-toe shoes."
+  }
+}
