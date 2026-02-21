@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+    <linearGradient id="hanger-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6" />
+      <stop offset="100%" stop-color="#D946EF" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" rx="20" fill="url(#bg-grad)" />
+
+  <!-- Stylized Hanger Icon -->
+  <path d="M50 20 C46 20 43 23 43 27 C43 30.5 45.5 33.5 49 34 V38 L25 48 C22 49.5 20 52 20 55 C20 58.5 23.5 60 26 60 H74 C76.5 60 80 58.5 80 55 C80 52 78 49.5 75 48 L51 38 V34 C54.5 33.5 57 30.5 57 27 C57 23 54 20 50 20 Z" 
+        fill="url(#hanger-grad)" />
+        
+  <!-- Hanger Inner Cutout -->
+  <path d="M50 26 C48 26 47 27 47 28 C47 29.5 49 31 50 31 C51 31 53 29.5 53 28 C53 27 52 26 50 26 Z" 
+        fill="#1E293B" />
+        
+  <!-- Sparkles -->
+  <circle cx="28" cy="30" r="3" fill="#FDE047" />
+  <circle cx="72" cy="70" r="2.5" fill="#FDE047" opacity="0.8" />
+  <circle cx="78" cy="35" r="2" fill="#FBCFE8" />
+</svg>
